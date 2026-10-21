@@ -9,6 +9,10 @@ An NLP coursework notebook from Le Wagon exploring positive/negative classificat
 - Builds a Keras classifier with Masking, a 20-unit LSTM, a dense layer and sigmoid output.
 - Trains with early stopping and explores transfer learning using pretrained GloVe embeddings.
 
+## Conclusions
+
+The notebook records training experiments with Word2Vec and pretrained GloVe embeddings for LSTM-based sentiment classification. A valid final test evaluation is still needed to determine which approach performs better on unseen reviews.
+
 ## Evidence and limitations
 
 The notebook retains historical training outputs for both embedding approaches. The saved final test-evaluation output contains a `NameError` for an earlier variable name (`X_test_pad_2`); the current cell source uses `X_test_pad`. The notebook has not been rerun here, and no verified test accuracy or production readiness is claimed. The baseline and initial-model test evaluation are unfinished. Validation results are not test-set results.
